@@ -1,0 +1,22 @@
+{
+  "name": "edgelab",
+  "description": "Honest backtester for Claude: tests whether a trading rule had a real, cost-adjusted edge, or was no better than random entries. Lookahead firewall, randomized-entry null, deflated Sharpe with a permanent trial counter, FDR control, regime split, causality audit.",
+  "version": "1.0.0",
+  "author": {
+    "name": "repwarrior",
+    "url": "https://github.com/repwarrior"
+  },
+  "homepage": "https://github.com/repwarrior/edgelab-skill",
+  "repository": "https://github.com/repwarrior/edgelab-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "backtesting",
+    "trading",
+    "quant",
+    "statistics",
+    "deflated-sharpe",
+    "overfitting"
+  ]
+}

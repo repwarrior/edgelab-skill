@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "edgelab-skill",
+  "description": "edgelab: the backtester that tells you when your strategy has no edge",
+  "owner": {
+    "name": "repwarrior",
+    "url": "https://github.com/repwarrior"
+  },
+  "plugins": [
+    {
+      "name": "edgelab",
+      "description": "Tests whether a trading rule actually had an edge after costs, against a randomized-entry null, with multiple-testing correction. Returns PROVEN / LIKELY / NO_EDGE / INSUFFICIENT_SAMPLE with the numbers behind it. Never places trades.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/repwarrior/edgelab-skill"
+    }
+  ]
+}
